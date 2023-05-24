@@ -28,25 +28,19 @@
   justify-content: center;
 }
 
-ul {
-  list-style: none;
-}
-
-li a {
-  display: flex;
-  color: white;
+h2 {
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  display: block;
 }
 
-li a:hover {
-  background-color: #111;
+.projects-section-header {
+  max-width: 150px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid;
 }
 
 .projectContainer {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 30px;
 }
